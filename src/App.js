@@ -1,5 +1,4 @@
 import React from "react";
-import ReactFCCtest from "react-fcctest";
 
 import cowbell1 from "./sounds/COWBELL1.mp3";
 import crash1 from "./sounds/CRASH1.mp3";
@@ -217,10 +216,9 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <ReactFCCtest />
       </div>
     );
   }
 }
 
-export default App
+export default App;
